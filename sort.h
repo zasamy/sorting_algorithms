@@ -29,4 +29,8 @@ void sortpart(int *array, int el1, int el2, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 
+size_t list_len(listint_t *list);
+void switch_nodes(listint_t **list, listint_t **p);
+void cocktail_sort_list(listint_t **list);
+
 #endif
